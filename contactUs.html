@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  
+    <link href="../BootStrap/bootstrap-3.3.7-dist/css/bootstrap.min.css" 
+            rel="stylesheet" />
+
+       
+    <link href="restaurantStyles.css" 
+	      rel="stylesheet" 
+	      type="text/css" />
+
+    <style>
+        label, p {
+            display: inline-block;
+            width: 575px;
+            text-align: right;
+        }
+        textarea {
+            vertical-align: top;
+        }
+        div {
+            margin-left: 25px;
+        }
+        select {
+                border:1px solid;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+                border-bottom-right-radius: 5px;
+                border-bottom-left-radius: 5px;
+                padding:2px;
+        }
+    </style>
+
+    <head>
+        <title>V6 Contact Us - Chauncey Creek Lobster Pier</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+        <div class="page-header">
+  	        <div class="container">
+  		        <div class="row-fluid">
+                    <h1>Chauncey Creek Lobster Pier - Established in 1948</h1>
+      	        </div>
+  	        </div>
+        </div>
+
+        <div class="container">
+            <ul class="nav nav-tabs">
+                <li><a href="index.html" class="glyphicon glyphicon-home"></a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li class="active"><a href="contactUs.html">Contact Us</a></li>
+            </ul>
+            <br/>
+        </div>
+    </head>
+    
+    <body>
+        <div class="container center_div">
+        <form action="#" method="post">
+         
+            <div class="input-group col-lg-4 col-lg-offset-4">
+                <span class="input-group-addon">Name:</span>
+                <input id="fullName" type="text" class="form-control" name="fullName" placeholder="Enter Full Name">
+            </div>
+
+            <br/>
+
+            <div class="input-group col-lg-4 col-lg-offset-4">
+                <span class="input-group-addon">Email:</span>
+                <input id="email" type="email" class="form-control" name="email" placeholder="me@something.com">
+            </div>
+
+            <br/>
+            
+            <div class="input-group col-lg-4 col-lg-offset-4">
+                <span class="input-group-addon">Phone:</span>
+                <input id="phone" type="phone" class="form-control" name="phone" placeholder="(xxx) 123-4567">
+            </div>
+            
+            <br/>
+
+            <div class="input-group col-lg-4 col-lg-offset-4">
+                <span class="input-group-addon">Reason for Inquiry</span>
+                <select class="form-control" id="Reason">
+                    <option value="Catering">Catering</option>
+                    <option value="Private Party">Private Party</option>
+                    <option value="feedback">Feedback</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+
+            <br/>
+
+            <div class="input-group col-lg-4 col-lg-offset-4">
+                <span class="input-group-addon">Additional Information</span>
+                <textarea class="form-control" name="addlInfo"></textarea><br/>
+            </div>
+
+            <br/>
+
+            <div class="required">
+                <label id="radioLabel" for="returnCustomer">Have you been to the restaurant?</label>
+                <input type="radio" name="returnCustomer" value="No" checked/>No
+                <input type="radio" name="returnCustomer" value="Yes"       />Yes
+            </div>
+
+            <br/>
+
+            <div class="required">
+                <label id="checkboxLabel" for="contactDays">Best days to contact you: </label>
+                <input type="checkbox" name="contactDays" value="M"/>M
+                <input type="checkbox" name="contactDays" value="T"/>T
+                <input type="checkbox" name="contactDays" value="W"/>W
+                <input type="checkbox" name="contactDays" value="Th"/>Th
+                <input type="checkbox" name="contactDays" value="F"/>F
+            </div>
+            <br/>
+
+            <div>
+                <center>
+                <input type="submit" id="submitButton" value="Send Request" /><br/>
+                </center>
+            </div>
+            <br/>
+            
+        </form>
+        </div>
+    </body>
+
+    <footer>
+        <!--
+        <hr/>
+            Lobster Trap Road, Kittery Point, Maine 03905<br/>
+            (207) 123-4567 
+        <hr/>
+        -->
+        <div class="page-footer">
+        <div class="container">
+  		    <div class="row-fluid, text-center">
+                <br/>
+                Lobster Trap Road, Kittery Point, Maine 03905<br/>
+                (207) 123-4567 
+      	    </div>
+  	    </div>
+    </div>
+    </footer>
+</html>

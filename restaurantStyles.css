@@ -1,0 +1,70 @@
+h1 {
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    color:blueviolet;
+    font-weight:bold;
+}
+
+h2 {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+th {
+    text-align: center;
+    font-size: 150%;
+}
+
+label {
+    font-weight: bold;
+}
+
+#addlInfoLabel {
+    font-weight: normal;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+	color: Red;
+}
+
+a:hover {
+	font-weight: bold;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+#beverage {
+    font-weight: normal;
+    font-size: 100%;
+	text-decoration: underline;
+    text-align: left;
+}
+
+#drink {
+    text-align: left;
+}
+
+#colorAqua {
+    background-color:aqua;
+}
+
+#colorChartreuse {
+    background-color: chartreuse;
+}
+
+#colorFuchsia {
+    background-color: fuchsia
+}
+
+div {
+    align-content: center;
+}
